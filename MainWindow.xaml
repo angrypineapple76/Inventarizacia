@@ -18,6 +18,7 @@
             <RowDefinition Height="30"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Grid.Column="1">
+            <Label Name="vertxt" HorizontalAlignment="Left"></Label>
             <Image Margin="5" Source="Model/Image/r.png"></Image>
         </Grid>
         <Grid Grid.Row="1" Grid.Column="1">

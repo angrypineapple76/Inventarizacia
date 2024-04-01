@@ -24,6 +24,7 @@ namespace Inventarizacia
         public MainWindow()
         {
             InitializeComponent();
+            vertxt.Content = Application.ResourceAssembly.ManifestModule.Assembly.GetName().Version;
         }
 
         private void btnEnter_Click(object sender, RoutedEventArgs e)
